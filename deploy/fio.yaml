@@ -30,6 +30,8 @@ spec:
         env:
         #- name: QUICK_MODE  # for debugging
         #  value: "1"
+        - name: TEST_NAME
+          value: test_device
         - name: FILE_NAME
           value: "/volume/test"
         - name: SIZE

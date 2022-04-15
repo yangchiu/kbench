@@ -25,7 +25,7 @@ echo TEST_FILE: $TEST_FILE
 OUTPUT=$2
 if [ -z $OUTPUT ];
 then
-	OUTPUT=test_device
+	OUTPUT=$TEST_NAME
 fi
 echo TEST_OUTPUT_PREFIX: $OUTPUT
 

@@ -45,6 +45,8 @@ spec:
         env:
         #- name: QUICK_MODE  # for debugging
         #  value: "1"
+        - name: TEST_NAME
+          value: test_device
         - name: FIRST_VOL_NAME
           value: Local-Path
         - name: FIRST_VOL_FILE
